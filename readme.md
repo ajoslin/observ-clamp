@@ -1,6 +1,6 @@
 # observ-clamp [![Build Status](https://travis-ci.org/ajoslin/observ-clamp.svg?branch=master)](https://travis-ci.org/ajoslin/observ-clamp)
 
-> Clamp an observable number between two values
+> Create an observable number clamped between two values
 
 
 ## Install
