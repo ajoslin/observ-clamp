@@ -1,0 +1,36 @@
+{
+  "name": "observ-clamp",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Clamp an observable number between two values",
+  "license": "MIT",
+  "repository": "ajoslin/observ-clamp",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "observ",
+    "clamp",
+    "number",
+    "min",
+    "max",
+    "minimum",
+    "maximum"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^5.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "clamp": "^1.0.1",
+    "observ": "^0.2.0"
+  }
+}
