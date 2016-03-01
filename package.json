@@ -1,7 +1,7 @@
 {
   "name": "observ-clamp",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Clamp an observable number between two values",
   "license": "MIT",
   "repository": "ajoslin/observ-clamp",
