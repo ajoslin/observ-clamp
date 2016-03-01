@@ -13,32 +13,28 @@ $ npm install --save observ-clamp
 ## Usage
 
 ```js
-var observClamp = require('observ-clamp')
+var ObservClamp = require('observ-clamp')
 
-observClamp('input')
+var number = ObservClamp(0, -5, 5)
+
+number() // => 0
+
+number.set(-10)
+number() // => -5
+
+number.set(10)
+number() // => 5
+
+number.set(3)
+number() // => 3
 //=> output
 ```
 
 ## API
 
-#### `observClamp(input, [options])` -> `output`
+#### `ObservClamp(initial, min, max)` -> `observable`
 
-##### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-##### options
-
-###### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
+Returns an [Observ](https://github.com/raynos/observ) instance where value can never go lower than `min` or higher than `max`.
 
 ## License
 
